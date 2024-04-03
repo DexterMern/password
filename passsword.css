@@ -1,0 +1,33 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+.container{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+}
+.password-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 20px;
+}
+.input-password{
+    border: none;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 20px;
+}
+button{
+    border: none;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    color: green;
+}
